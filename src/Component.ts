@@ -8,6 +8,6 @@ export class ButtonComponent extends LitElement {
   public static styles = Style;
   public render = Template.bind(this);
 
-  @property() text;
+  @property() label;
   @property() outlined = false;
 }

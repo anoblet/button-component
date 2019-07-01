@@ -6,26 +6,20 @@ import { css } from "lit-element";
  */
 export default css`
   :host {
-    /* define style API */
-      --button-background: inherit;
-      --button-color: inherit;
-    /* End define style API */
-  }
-
-  button {
-    /*
-      Set initial state
-     */
-    background: var(--button-background);
+    display: flex;
     color: var(--button-color);
   }
 
-  /* Purely reset*/
   button {
+    background: inherit;
     border: 0;
+    color: inherit;
+    flex: 1;
+    cursor: pointer;
   }
 
   :host([outlined]) {
     border: 1px solid #fff;
+    border-radius: 0.25em;
   }
 `;
