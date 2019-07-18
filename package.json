@@ -5,6 +5,7 @@
   "main": "dist/button-component.js",
   "scripts": {
     "build": "rollup --config",
+    "save": "git add . && git commit -m \"Chore: Save\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
