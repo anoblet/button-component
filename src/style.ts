@@ -11,7 +11,7 @@ export default css`
   }
 
   button {
-    background: inherit;
+    background: initial;
     border: 0;
     color: inherit;
     flex: 1;
