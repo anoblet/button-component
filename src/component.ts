@@ -8,6 +8,7 @@ export class ButtonComponent extends LitElement {
   public static styles = style;
   public render = template.bind(this);
 
+  @property({ reflect: true, attribute: "aria-label" }) ariaLabel: string;
   @property() label: string;
   @property() outlined = false;
 }
