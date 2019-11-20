@@ -2,7 +2,8 @@
   "name": "@anoblet/button-component",
   "version": "1.0.3",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/components.js",
+  "module": "dist/components.js",
   "scripts": {
     "build": "rollup --config",
     "save": "git add . && git commit -m \"Chore: Save\"",
@@ -13,12 +14,7 @@
   "dependencies": {
     "lit-element": "^2.2.0"
   },
-  "devDependencies": {
-    "rollup": "^1.16.2",
-    "rollup-plugin-typescript": "^1.0.1",
-    "tslib": "^1.10.0",
-    "typescript": "^3.5.2"
-  },
+  "devDependencies": {},
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   }
