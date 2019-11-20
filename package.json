@@ -1,6 +1,6 @@
 {
   "name": "@anoblet/button-component",
-  "version": "1.0.4",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/components.js",
   "module": "dist/components.js",
