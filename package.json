@@ -2,8 +2,8 @@
   "name": "@anoblet/button-component",
   "version": "0.0.1",
   "description": "",
-  "main": "dist/components.js",
-  "module": "dist/components.js",
+  "main": "dist/component.js",
+  "module": "dist/component.js",
   "scripts": {
     "build": "rollup --config",
     "save": "git add . && git commit -m \"Chore: Save\"",
